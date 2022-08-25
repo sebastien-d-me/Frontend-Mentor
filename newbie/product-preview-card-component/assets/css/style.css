@@ -1,0 +1,211 @@
+/* Variables */
+:root {
+    --cream: #F2EBE3;
+    --dark-cyan: #3C8067;
+    --dark-cyan-hover: #1A4032;
+    --dark-grayish-blue: #6C7289;
+    --transparent-black: #00000010;
+    --very-dark-blue: #1C232B;
+    --white: #FFFFFF;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Montserrat/montserrat-v25-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Montserrat/montserrat-v25-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Fraunces/fraunces-v23-latin-700.woff2") format("woff2");
+}
+
+/* General */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Content */
+* {
+    font-family: "Montserrat";
+}
+
+/* Card */
+.card {
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    filter: drop-shadow(0px 0px 5px var(--transparent-black));
+    height: 450px;
+    margin-top: 25px;
+    width: 600px;
+}
+
+/* Card - Illustration */
+.card-illustration {
+    height: 450px;
+    width: 50%;
+}
+
+.card-illustration-image {
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.card-illustration-image.mobile {
+    display: none;
+}
+
+/* Card - Informations */
+.card-informations {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: calc(50% - 60px);
+}
+
+.card-category {
+    color: var(--dark-grayish-blue);
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    color: var(--very-dark-blue);
+    font-family: "Fraunces";
+    font-size: 32px;
+    line-height: 32px;
+    margin: 20px 0 24px 0;
+}
+
+.card-description {
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0 0 28px 0;
+}
+
+.card-price {
+    align-items: center;
+    display: flex;
+}
+
+.card-price-new {
+    color: var(--dark-cyan);
+    font-family: "Fraunces";
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.card-price-old {
+    color: var(--dark-grayish-blue);
+    font-size: 13px;
+    justify-content: end;
+    line-height: 23px;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+.card-button {
+    align-items: center;
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    display: flex;
+    font-size: 14px;
+    height: 48px;
+    justify-content: center;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.card-button:hover {
+    background-color: var(--dark-cyan-hover);
+    cursor: pointer;
+}
+
+.card-button-icon {
+    margin-right: 12px;
+}
+
+/* Attribution */
+.attribution {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.attribution > a {
+    color: var(--dark-cyan);
+    display: block;
+    margin-bottom: 10px;
+}
+.attribution > a:last-of-type {
+    margin-bottom: 0;
+}
+
+/** Responsive **/
+@media screen and (max-width: 650px) {
+    /* Card */
+    .card {
+        flex-direction: column;
+        height: fit-content;
+        width: 300px;
+    }
+
+    /* Card - Illustration */
+    .card-illustration {
+        height: 240px;
+        width: 100%;
+    }
+
+    .card-illustration-image {
+        border-radius: 10px 10px 0 0;
+    }
+    .card-illustration-image.desktop {
+        display: none;
+    }
+    .card-illustration-image.mobile {
+        display: block;
+    }
+
+    /* Card - Informations */
+    .card-informations {
+        padding: 24px 20px;
+        width: calc(100% - 40px);
+    }
+
+    .card-title {
+        margin: 12px 0 16px 0;
+    }
+
+    .card-description {
+        margin-bottom: 24px;
+    }
+
+    .card-button {
+        margin-top: 20px;
+    }
+}
