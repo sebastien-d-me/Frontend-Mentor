@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png" />
+    <title>Frontend Mentor | Pod request access landing page</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+</head>
+<body>
+    <!-- Main -->
+    <main>
+        <img alt="Website logo" class="logo" src="./assets/images/logo/logo.svg" />
+
+        <div class="landing-content">
+            <h1 class="landing-content-title">Publish your podcasts</h1>
+            <p class="landing-content-description">Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            
+            <div class="landing-informations">
+                <form class="landing-content-form">
+                    <input class="landing-form-input" maxlength="50" name="email-address" placeholder="Email address" />
+                    <button class="landing-form-button" type="button" onclick="request()">Request access</button>
+                    <span id="landing-form-error"></span>
+                </form>
+                
+                <div class="sponsors">
+                    <img alt="Sponsor" class="sponsor" src="./assets/images/sponsors/spotify.svg" />
+                    <img alt="Sponsor" class="sponsor" src="./assets/images/sponsors/apple-podcast.svg" />
+                    <img alt="Sponsor" class="sponsor" src="./assets/images/sponsors/google-podcasts.svg" />
+                    <img alt="Sponsor" class="sponsor" src="./assets/images/sponsors/pocket-casts.svg" />
+                </div>
+            </div>
+        </div>
+
+        <div class="landing-host">
+            <img alt="Host" class="host" src="./assets/images/host/desktop/image-host.jpg" />
+            <img alt="Host" class="host host-tablet" src="./assets/images/host/tablet/image-host.jpg" />
+            <img alt="Dots" class="bg-dots" src="./assets/images/bg/bg-pattern-dots.svg" />
+        </div>
+        <img alt="Dots" class="bg-dots-tablet" src="./assets/images/bg/bg-pattern-dots.svg" />
+    </main>   
+    
+    
+    <!-- Attribution -->
+    <div class="attribution" role="contentinfo">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+        Coded by <a href="https://www.frontendmentor.io/profile/sebastien-d-me">@sebastien-d-me</a>
+    </div>
+
+    <!-- Script -->
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
