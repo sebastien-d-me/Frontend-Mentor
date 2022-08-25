@@ -1,0 +1,247 @@
+/* Variables */
+:root {
+    --black-gradient: linear-gradient(180deg, #232A34 0%, #181E27 100%);
+    --dark-blue: #262E38;
+    --light-grey: #969FAD;
+    --medium-gray: #7C8798;
+    --orange: #FC7614;
+    --pure-white: #FFFFFF;
+    --very-dark-blue: #131518;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Overpass/overpass-v12-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Overpass/overpass-v12-latin-700.woff2") format("woff2");
+}
+
+/* General */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: var(--very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Content */
+* {
+    font-family: "Overpass";
+}
+
+/* Main */
+main {
+    background: var(--black-gradient);
+    border-radius: 30px;
+    height: 380px;
+    margin: 25px 10px 0 10px;
+    max-width: calc(100% - 20px - 40px);
+    padding: 20px;
+    width: 380px;
+}
+
+/* Rating */
+.rating {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.rating.rating-hide {
+    display: none;
+}
+
+.rating-icon {
+    align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    width: 48px;
+}
+
+.rating-icon-img {
+    height: 16px;
+    width: 16.75px
+}
+
+.rating-title {
+    color: var(--pure-white);
+    font-size: 28px;
+    margin: 30px 0 15px 0;
+}
+
+.rating-description {
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.rating-numbers {
+    display: flex;
+    justify-content: space-around;
+    margin: 24px 0 32px 0;
+}
+
+.rating-number {
+    align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    color: var(--medium-gray);
+    display: flex;
+    font-size: 16px;
+    height: 51px;
+    justify-content: center;
+    line-height: 24px;
+    transition: 0.5s;
+    width: 51px;
+}
+.rating-number:hover {
+    background-color: var(--orange);
+    color: var(--pure-white);
+    cursor: pointer;
+}
+
+.rating-number-active {
+    background-color: var(--medium-gray);
+    color: var(--pure-white);
+}
+
+.rating-button {
+    background-color: var(--orange);
+    border: none;
+    border-radius: 22.5px;
+    color: var(--pure-white);
+    display: block;
+    font-size: 15px;
+    height: 45px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    width: 100%;
+}
+.rating-button:hover {
+    background-color: var(--pure-white);
+    color: var(--orange);
+    cursor: pointer;
+}
+
+/* Thank's */
+.thanks {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.thanks.thanks-show {
+    display: flex;
+}
+
+.thanks-img {
+    margin: 0 auto 32px auto;
+    width: fit-content;
+}
+
+.thanks-selected {
+    align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 22.5px;
+    color: var(--orange);
+    display: flex;
+    font-size: 15px;
+    height: 32px;
+    line-height: 24px;
+    justify-content: center;
+    padding: 5px 30px;
+    width: fit-content;
+}
+
+.thanks-selected-value::before, 
+.thanks-selected-value::after {
+    content: "\00a0";
+}
+
+.thanks-title {
+    color: var(--pure-white);
+    font-size: 28px;
+    margin: 32px auto 8px auto;
+}
+
+.thanks-description {
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* Attribution */
+.attribution {
+    color: var(--pure-white);
+    margin: 25px auto;
+    text-align: center;
+}
+
+.attribution > a {
+    color: var(--orange);
+    display: block;
+    margin-bottom: 10px;
+}
+.attribution > a:last-of-type {
+    margin-bottom: 0;
+}
+
+/** Responsive **/
+@media screen and (max-width: 460px) {
+    /* Rating */
+    .rating-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .rating-icon-img {
+        height: 13.5px;
+        width: 14px;
+    }
+
+    .rating-title {
+        margin: 16px 0 10px 0;
+    }
+
+    .rating-number {
+        height: 42px;
+        width: 42px;
+    }
+
+    /* Thank's */
+    .thanks-img {
+        margin-bottom: 24px;
+    }
+
+    .thanks-title {
+        font-size: 24px;
+        margin: 24px auto 10px auto;
+    }
+
+    .thanks-description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
