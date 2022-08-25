@@ -1,0 +1,97 @@
+/* Variables */
+:root {
+    --dark-navy: #1F314F;
+    --grey: #7D889E;
+    --light-grey: #D5E1EF;
+    --transparent-black: #0000000D;
+    --white: #FFFFFF;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Outfit/outfit-v6-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Outfit/outfit-v6-latin-700.woff2") format("woff2");
+}
+
+/* General */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Content */
+* {
+    font-family: "Outfit";
+}
+
+/* Card */
+.card {
+    background-color: var(--white);
+    border-radius: 20px;
+    filter: drop-shadow(0 25px 25px var(--transparent-black));
+    margin-top: 25px;
+    padding: 15px 15px 25px;
+    text-align: center;
+    width: 290px;
+}
+
+/* Card Image */
+.card-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Card Title */
+.card-title {
+    color: var(--dark-navy);
+    font-size: 22px;
+    margin: 24px 0 16px 0;
+}
+
+/* Card Description */
+.card-description {
+    color: var(--grey);
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+
+/* Attribution */
+.attribution {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.attribution > a {
+    color: var(--grey);
+    display: block;
+    margin-bottom: 10px;
+}
+.attribution > a:last-of-type {
+    margin-bottom: 0;
+}
+
+/** Responsive **/
+@media screen and (max-width: 375px) {
+    /* Card */
+    .card {
+        width: 270px;
+    }
+}
