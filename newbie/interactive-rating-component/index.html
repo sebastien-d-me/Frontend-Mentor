@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png" />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <main>
+        <!-- Rating -->
+        <div class="rating">
+            <span class="rating-icon">
+                <img alt="Star" class="rating-icon-img" src="./assets/img/component/icon-star.svg" />
+            </span>
+            <h1 class="rating-title">How did we do?</h1>
+            <p class="rating-description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="rating-numbers">
+                <span class="rating-number" onclick="rate('1')">1</span>
+                <span class="rating-number" onclick="rate('2')">2</span>
+                <span class="rating-number" onclick="rate('3')">3</span>
+                <span class="rating-number" onclick="rate('4')">4</span>
+                <span class="rating-number" onclick="rate('5')">5</span>
+            </div>
+            <button class="rating-button" onclick="submit()">Submit</button>
+        </div>
+
+        <!-- Thank's -->
+        <div class="thanks">
+            <img alt="Thank you" class="thanks-img" src="./assets/img/component/illustration-thank-you.svg" />
+            <div class="thanks-selected">
+                You selected
+                <span class="thanks-selected-value">0</span> 
+                out of 5
+            </div>
+            <h1 class="thanks-title">Thank you!</h1>
+            <p class="thanks-description">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </main>
+    
+    <!-- Attribution -->
+    <div class="attribution" role="contentinfo">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+        Coded by <a href="https://www.frontendmentor.io/profile/sebastien-d-me">sebastien-d-me</a>
+    </div>
+
+    
+    <!-- Script -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
