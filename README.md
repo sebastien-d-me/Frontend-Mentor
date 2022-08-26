@@ -3,7 +3,7 @@
 ###### Contient les différents challenges.
 
 - 😁 Mon profil : https://www.frontendmentor.io/profile/sebastien-d-me
-- 📈 Nombre de challenges réalisés : 11/90
+- 📈 Nombre de challenges réalisés : 12/90
 
 ---
 
@@ -26,7 +26,7 @@
 |   ❌   | HTML CSS JS |          Ping single column coming soon page           | GRATUIT |                                                    [Lien]()                                                    |
 |   ✅   | HTML CSS JS |            Pod request access landing page             | PREMIUM |           [Lien](https://www.frontendmentor.io/solutions/pod-request-access-landing-page-e-9XHLFS9M)           |
 |   ✅   |  HTML CSS   |             Product preview card component             | GRATUIT |           [Lien](https://www.frontendmentor.io/solutions/product-preview-card-component-0pvcjBiGWl)            |
-|   ❌   |  HTML CSS   |                 Profile card component                 | GRATUIT |                                                    [Lien]()                                                    |
+|   ✅   |  HTML CSS   |                 Profile card component                 | GRATUIT |               [Lien](https://www.frontendmentor.io/solutions/profile-card-component-F-vdC_egK-)                |
 |   ✅   |  HTML CSS   |                   QR code component                    | GRATUIT |      [Lien](https://www.frontendmentor.io/solutions/frontend-mentor-qr-code-component-vanilla-A4_o__v27)       |
 |   ❌   |  HTML CSS   |              Single price grid component               | GRATUIT |                                                    [Lien]()                                                    |
 |   ✅   |  HTML CSS   |            Skilled e-learning landing page             | PREMIUM |           [Lien](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-_qSZs91a8A)            |
