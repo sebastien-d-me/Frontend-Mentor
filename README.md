@@ -3,7 +3,7 @@
 ###### Contient les différents challenges.
 
 - 😁 Mon profil : https://www.frontendmentor.io/profile/sebastien-d-me
-- 📈 Nombre de challenges réalisés : 12/90
+- 📈 Nombre de challenges réalisés : 12/91
 
 ---
 
@@ -72,7 +72,7 @@
 
 ---
 
-##### Intermediate | 0 / 24
+##### Intermediate | 0 / 25
 
 | STATUT |      TAGS       |               NOM                |  PRIX   | SOLUTION |
 | :----: | :-------------: | :------------------------------: | :-----: | :------: |
@@ -93,6 +93,7 @@
 |   ❌   |   HTML CSS JS   |      Launch countdown timer      | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |       Manage landing page        | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |   Minimalist portfolio website   | PREMIUM | [Lien]() |
+|   ❌   |   HTML CSS JS   |      Password generator app      | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |        Planets fact site         | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |          Room homepage           | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |     Scoot multi-page website     | PREMIUM | [Lien]() |
