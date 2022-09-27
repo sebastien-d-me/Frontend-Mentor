@@ -3,7 +3,7 @@
 ###### Contient les différents challenges.
 
 - 😁 Mon profil : https://www.frontendmentor.io/profile/sebastien-d-me
-- 📈 Nombre de challenges réalisés : 12/91
+- 📈 Nombre de challenges réalisés : 12/92
 
 ---
 
@@ -35,7 +35,7 @@
 
 ---
 
-##### Junior | 0 / 30
+##### Junior | 0 / 31
 
 | STATUT |      TAGS       |                         NOM                         |  PRIX   | SOLUTION |
 | :----: | :-------------: | :-------------------------------------------------: | :-----: | :------: |
@@ -58,6 +58,7 @@
 |   ❌   |   HTML CSS JS   |       Intro section with dropdown navigation        | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |              Loopstudios landing page               | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |            Maker pre-launch landing page            | PREMIUM | [Lien]() |
+|   ❌   |   HTML CSS JS   |                 Notifications page                  | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |             Officelite coming soon site             | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |            Pricing component with toggle            | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |          Project tracking intro component           | GRATUIT | [Lien]() |
