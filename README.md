@@ -35,7 +35,7 @@
 
 ---
 
-##### Junior | 0 / 31
+##### Junior | 0 / 33
 
 | STATUT |      TAGS       |                         NOM                         |  PRIX   | SOLUTION |
 | :----: | :-------------: | :-------------------------------------------------: | :-----: | :------: |
@@ -58,10 +58,12 @@
 |   ❌   |   HTML CSS JS   |       Intro section with dropdown navigation        | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |              Loopstudios landing page               | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |            Maker pre-launch landing page            | PREMIUM | [Lien]() |
+|   ❌   |   HTML CSS JS   |                    News homepage                    | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |                 Notifications page                  | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |             Officelite coming soon site             | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |            Pricing component with toggle            | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |          Project tracking intro component           | GRATUIT | [Lien]() |
+|   ❌   |   HTML CSS JS   |           Single-page developer portfolio           | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |            Single-page design portfolio             | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |     Social media dashboard with theme switcher      | GRATUIT | [Lien]() |
 |   ❌   |    HTML CSS     |                 Suite landing page                  | PREMIUM | [Lien]() |
@@ -73,7 +75,7 @@
 
 ---
 
-##### Intermediate | 0 / 25
+##### Intermediate | 0 / 26
 
 | STATUT |      TAGS       |               NOM                |  PRIX   | SOLUTION |
 | :----: | :-------------: | :------------------------------: | :-----: | :------: |
@@ -94,6 +96,7 @@
 |   ❌   |   HTML CSS JS   |      Launch countdown timer      | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |       Manage landing page        | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |   Minimalist portfolio website   | PREMIUM | [Lien]() |
+|   ❌   |   HTML CSS JS   |         Multi-step form          | GRATUIT | [Lien]() |
 |   ❌   |   HTML CSS JS   |      Password generator app      | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |        Planets fact site         | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |          Room homepage           | GRATUIT | [Lien]() |
@@ -105,11 +108,12 @@
 
 ---
 
-##### Advanced | 0 / 10
+##### Advanced | 0 / 11
 
 | STATUT |      TAGS       |                     NOM                      |  PRIX   | SOLUTION |
 | :----: | :-------------: | :------------------------------------------: | :-----: | :------: |
 |   ❌   |   HTML CSS JS   |        Arch Studio multi-page website        | PREMIUM | [Lien]() |
+|   ❌   |   HTML CSS JS   |              Connect Four game               | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |               Devjobs web app                | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |            Entertainment web app             | PREMIUM | [Lien]() |
 |   ❌   |   HTML CSS JS   |                 Memory game                  | PREMIUM | [Lien]() |
